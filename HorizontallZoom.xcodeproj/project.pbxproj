@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D1B9E8D1C6A5AE2005A3C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1B9E8C1C6A5AE2005A3C2A /* Main.storyboard */; };
+		9DF3DC3C1C6525330056FFBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF3DC3B1C6525330056FFBE /* AppDelegate.swift */; };
+		9DF3DC3E1C6525330056FFBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF3DC3D1C6525330056FFBE /* ViewController.swift */; };
+		9DF3DC411C6525330056FFBE /* AutolayoutVariableColumns.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF3DC3F1C6525330056FFBE /* AutolayoutVariableColumns.storyboard */; };
+		9DF3DC431C6525330056FFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF3DC421C6525330056FFBE /* Assets.xcassets */; };
+		9DF3DC461C6525330056FFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF3DC441C6525330056FFBE /* LaunchScreen.storyboard */; };
+		9DF3DC4E1C6525420056FFBE /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF3DC4D1C6525420056FFBE /* GridView.swift */; };
+		9DF3DC511C652A450056FFBE /* NoAutolayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF3DC4F1C652A450056FFBE /* NoAutolayout.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D1B9E8C1C6A5AE2005A3C2A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9DF3DC381C6525330056FFBE /* HorizontallZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontallZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF3DC3B1C6525330056FFBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DF3DC3D1C6525330056FFBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DF3DC401C6525330056FFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AutolayoutVariableColumns.storyboard; sourceTree = "<group>"; };
+		9DF3DC421C6525330056FFBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DF3DC451C6525330056FFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DF3DC471C6525330056FFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF3DC4D1C6525420056FFBE /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		9DF3DC501C652A450056FFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NoAutolayout.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DF3DC351C6525330056FFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DF3DC2F1C6525330056FFBE = {
+			isa = PBXGroup;
+			children = (
+				9DF3DC3A1C6525330056FFBE /* HorizontallZoom */,
+				9DF3DC391C6525330056FFBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DF3DC391C6525330056FFBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DF3DC381C6525330056FFBE /* HorizontallZoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DF3DC3A1C6525330056FFBE /* HorizontallZoom */ = {
+			isa = PBXGroup;
+			children = (
+				9DF3DC3B1C6525330056FFBE /* AppDelegate.swift */,
+				9DF3DC3D1C6525330056FFBE /* ViewController.swift */,
+				9DF3DC4D1C6525420056FFBE /* GridView.swift */,
+				9D1B9E8C1C6A5AE2005A3C2A /* Main.storyboard */,
+				9DF3DC3F1C6525330056FFBE /* AutolayoutVariableColumns.storyboard */,
+				9DF3DC4F1C652A450056FFBE /* NoAutolayout.storyboard */,
+				9DF3DC421C6525330056FFBE /* Assets.xcassets */,
+				9DF3DC441C6525330056FFBE /* LaunchScreen.storyboard */,
+				9DF3DC471C6525330056FFBE /* Info.plist */,
+			);
+			path = HorizontallZoom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DF3DC371C6525330056FFBE /* HorizontallZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF3DC4A1C6525330056FFBE /* Build configuration list for PBXNativeTarget "HorizontallZoom" */;
+			buildPhases = (
+				9DF3DC341C6525330056FFBE /* Sources */,
+				9DF3DC351C6525330056FFBE /* Frameworks */,
+				9DF3DC361C6525330056FFBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorizontallZoom;
+			productName = HorizontallScroll;
+			productReference = 9DF3DC381C6525330056FFBE /* HorizontallZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DF3DC301C6525330056FFBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Open Reel Software";
+				TargetAttributes = {
+					9DF3DC371C6525330056FFBE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9DF3DC331C6525330056FFBE /* Build configuration list for PBXProject "HorizontallZoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DF3DC2F1C6525330056FFBE;
+			productRefGroup = 9DF3DC391C6525330056FFBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DF3DC371C6525330056FFBE /* HorizontallZoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DF3DC361C6525330056FFBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF3DC461C6525330056FFBE /* LaunchScreen.storyboard in Resources */,
+				9D1B9E8D1C6A5AE2005A3C2A /* Main.storyboard in Resources */,
+				9DF3DC431C6525330056FFBE /* Assets.xcassets in Resources */,
+				9DF3DC511C652A450056FFBE /* NoAutolayout.storyboard in Resources */,
+				9DF3DC411C6525330056FFBE /* AutolayoutVariableColumns.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DF3DC341C6525330056FFBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF3DC3E1C6525330056FFBE /* ViewController.swift in Sources */,
+				9DF3DC3C1C6525330056FFBE /* AppDelegate.swift in Sources */,
+				9DF3DC4E1C6525420056FFBE /* GridView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DF3DC3F1C6525330056FFBE /* AutolayoutVariableColumns.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DF3DC401C6525330056FFBE /* Base */,
+			);
+			name = AutolayoutVariableColumns.storyboard;
+			sourceTree = "<group>";
+		};
+		9DF3DC441C6525330056FFBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DF3DC451C6525330056FFBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9DF3DC4F1C652A450056FFBE /* NoAutolayout.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DF3DC501C652A450056FFBE /* Base */,
+			);
+			name = NoAutolayout.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DF3DC481C6525330056FFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DF3DC491C6525330056FFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DF3DC4B1C6525330056FFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HorizontallZoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openreelsoftware.HorizontallScroll;
+				PRODUCT_NAME = HorizontallZoom;
+			};
+			name = Debug;
+		};
+		9DF3DC4C1C6525330056FFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HorizontallZoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openreelsoftware.HorizontallScroll;
+				PRODUCT_NAME = HorizontallZoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DF3DC331C6525330056FFBE /* Build configuration list for PBXProject "HorizontallZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF3DC481C6525330056FFBE /* Debug */,
+				9DF3DC491C6525330056FFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF3DC4A1C6525330056FFBE /* Build configuration list for PBXNativeTarget "HorizontallZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF3DC4B1C6525330056FFBE /* Debug */,
+				9DF3DC4C1C6525330056FFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DF3DC301C6525330056FFBE /* Project object */;
+}
